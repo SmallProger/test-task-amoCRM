@@ -1,0 +1,73 @@
+.offers__item {
+  position: relative;
+}
+
+@media screen and (max-width: 320px) {
+  .offers__item {
+    height: 16px;
+    padding-top: 5px;
+  }
+  .offers__item:nth-child(1) {
+    margin-bottom: 14px;
+  }
+  .offers__item:nth-child(2) {
+    padding-right: 5px;
+  }
+  .offers__item::before {
+    position: absolute;
+    z-index: 1;
+    left: -15px;
+    top: calc(0.5em + 3px);
+
+    display: block;
+    height: 1px;
+    width: 10px;
+
+    background-color: #2aa5a0;
+    background-image: var(--gold1);
+    -webkit-text-fill-color: transparent;
+
+    content: '';
+  }
+  .offers__item span:first-child {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15.85px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+  .offers__item span:last-child {
+    display: none;
+  }
+}
+@media screen and (min-width: 321px) {
+  .offers__item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 6px;
+  }
+  .offers__item span {
+    text-align: right;
+  }
+  .offers__item span:first-child {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+  .offers__item span:last-child {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .offers__item:nth-child(2) {
+    padding-left: 31px;
+  }
+}

@@ -1,0 +1,17 @@
+.offers {
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 321px) {
+  .offers {
+    padding-top: 17px;
+    max-width: 300px;
+    align-items: flex-end;
+    gap: 40px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .offers {
+    gap: 20px;
+  }
+}

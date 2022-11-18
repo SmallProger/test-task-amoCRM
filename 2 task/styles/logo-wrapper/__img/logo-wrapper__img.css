@@ -1,0 +1,8 @@
+.logo-wrapper__img {
+  width: 140px;
+  height: 24px;
+  background-image: url('../../../assets/svg/logo_welbex.svg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}

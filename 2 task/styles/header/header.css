@@ -1,0 +1,12 @@
+@media screen and (max-width: 320px) {
+  .header .contacts-connection {
+    display: none;
+  }
+}
+@media screen and (min-width: 321px) {
+  .header {
+    display: flex;
+    padding-top: 56px;
+    align-items: flex-start;
+  }
+}

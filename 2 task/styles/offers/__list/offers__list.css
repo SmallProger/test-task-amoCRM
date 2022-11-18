@@ -1,0 +1,16 @@
+.offers__list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  padding-left: 15px;
+}
+@media screen and (max-width: 321px) {
+  .offers__list {
+    max-width: 267px;
+  }
+}
+@media screen and (min-width: 321px) {
+  .offers__list {
+    grid-auto-flow: column;
+  }
+}

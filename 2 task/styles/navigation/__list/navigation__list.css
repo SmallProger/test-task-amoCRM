@@ -1,0 +1,18 @@
+.navigation__list {
+  display: flex;
+  width: 100%;
+  gap: 40px;
+  overflow: hidden;
+
+  list-style-type: none;
+}
+@media screen and (max-width: 320px) {
+  .navigation__list {
+    gap: 16px;
+  }
+}
+@media screen and (min-width: 321px) {
+  .navigation__list {
+    padding-top: 5px;
+  }
+}

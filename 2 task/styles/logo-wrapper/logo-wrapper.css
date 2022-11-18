@@ -1,0 +1,13 @@
+.logo-wrapper {
+  display: flex;
+  gap: 10px;
+  width: 140px;
+  height: 100%;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 320px) {
+  .logo-wrapper {
+    display: none;
+  }
+}

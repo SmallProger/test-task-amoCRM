@@ -1,0 +1,14 @@
+.social-list {
+  display: flex;
+}
+.footer .social-list {
+  gap: 5px;
+}
+@media screen and (max-width: 320px) {
+  .footer .social-list {
+    gap: 10px;
+  }
+}
+.header .social-list {
+  gap: 20px;
+}

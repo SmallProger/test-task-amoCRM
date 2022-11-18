@@ -1,0 +1,8 @@
+.main__head_colored {
+  font-family: 'Inter', sans-serif;
+  background-color: #2aa5a0;
+  font-weight: 900;
+  background-image: var(--gold1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

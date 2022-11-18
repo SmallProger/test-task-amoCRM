@@ -1,0 +1,11 @@
+.main__head-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+}
+@media screen and (min-width: 321px) {
+  .main__head-wrapper {
+    gap: 30px;
+  }
+}

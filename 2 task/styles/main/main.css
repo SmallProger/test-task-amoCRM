@@ -1,0 +1,28 @@
+@media screen and (max-width: 321px) {
+  .main {
+    flex-direction: column;
+    gap: 45px;
+    padding-top: 40px;
+    padding-bottom: 59px;
+  }
+  .main {
+    display: flex;
+    background-image: url('./../../assets/jpg/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+}
+@media screen and (min-width: 321px) {
+  .main {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+    padding-bottom: 69px;
+
+    background-image: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+}

@@ -1,0 +1,17 @@
+.social-list__item {
+  display: block;
+  width: 24px;
+  height: 24px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.social-list__item:nth-child(1) {
+  background-image: url('../../../assets/svg/telegram.svg');
+}
+.social-list__item:nth-child(2) {
+  background-image: url('../../../assets/svg/viber.svg');
+}
+.social-list__item:nth-child(3) {
+  background-image: url('../../../assets/svg/whatsapp.svg');
+}

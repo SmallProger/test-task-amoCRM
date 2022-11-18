@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  --athens-gray: #e4e5ea;
+  --gold1: linear-gradient(90deg, #fcb045 36.99%, #fd1d1d 100%);
+  --gold2: linear-gradient(92deg, #fcb045 27.14%, #ff3f78 121.36%);
+  --royal-blue: #4077f3;
+  --woodsmoke: #0e1014;
+  --dark-gray: #656566;
+}
+ul {
+  list-style-type: none;
+}
+body {
+  background-color: var(--woodsmoke);
+  color: var(--athens-gray);
+}
+@media screen and (min-width: 321px) {
+  body {
+    background-image: url('./assets/jpg/Desktop.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}

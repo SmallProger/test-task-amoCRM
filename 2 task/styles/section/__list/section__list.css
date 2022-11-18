@@ -1,0 +1,25 @@
+.section__list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex-wrap: wrap;
+  max-height: 150px;
+}
+
+@media screen and (max-width: 321px) {
+  .section__list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 2em 1em 1em 1em 1em;
+    gap: 10px;
+    grid-auto-flow: column;
+  }
+  .about-company .section__list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .about-company .section__list .section__list-item {
+    max-width: 171px;
+  }
+}

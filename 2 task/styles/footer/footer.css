@@ -1,0 +1,29 @@
+@media screen and (min-width: 321px) {
+  .footer .rights {
+    margin-left: auto;
+  }
+  .footer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-height: 315px;
+    padding-top: 60px;
+
+    overflow: hidden;
+  }
+}
+
+@media screen and (max-width: 321px) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-top: 30px;
+    padding-bottom: 60px;
+  }
+  .footer section:last-child {
+    margin-top: 23px;
+  }
+}

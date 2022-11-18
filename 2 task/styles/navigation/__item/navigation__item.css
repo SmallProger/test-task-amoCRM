@@ -1,0 +1,13 @@
+.navigation__item {
+  height: 15px;
+}
+
+.navigation__item a {
+  color: var(--athens-gray);
+  font-family: 'Inter', sans-serif;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 14.52px;
+  text-decoration: none;
+}

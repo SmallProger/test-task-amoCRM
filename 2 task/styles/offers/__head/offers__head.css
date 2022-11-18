@@ -1,0 +1,11 @@
+.offers__head {
+  font-size: 18px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  line-height: 21.78px;
+}
+@media screen and (min-width: 321px) {
+  .offers__head {
+    text-align: right;
+  }
+}

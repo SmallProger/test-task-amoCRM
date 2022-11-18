@@ -1,0 +1,21 @@
+.section__list-item a {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16.94px;
+  text-decoration: none;
+  color: var(--athens-gray);
+  height: 100%;
+}
+
+@media screen and (max-width: 320px) {
+  .section__list-item {
+    max-width: 123px;
+  }
+}
+@media screen and (min-width: 321px) {
+  .section__list-item a {
+    font-size: 16px;
+    line-height: 19px;
+  }
+}

@@ -1,0 +1,13 @@
+.offers__head_colored {
+  font-family: 'Inter', sans-serif;
+  background-color: #2aa5a0;
+  font-weight: 900;
+  background-image: var(--gold1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+@media screen and (min-width: 320px) {
+  .offers__head_colored {
+    text-transform: uppercase;
+  }
+}
